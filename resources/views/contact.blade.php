@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Liên hệ</title>
-</head>
-<body>
-    <h1>Trang Liên Hệ</h1>
-    <p>Đây là trang liên hệ được tải từ View!</p>
-    <p>Email: sinhvien@example.com</p>
-</body>
-</html>
+@extends('layouts.master')
+
+@section('title', 'Liên hệ')
+
+@section('content')
+    <h1>Trang liên hệ</h1>
+    <p>Email: admin@example.com</p>
+@endsection
